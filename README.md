@@ -32,15 +32,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website?
 
-2. Describe what it means to be mobile first vs desktop first.
+1.	What is the difference between an adaptive website and a fully responsive website?
+An adaptive website uses multiple static layouts at various widths that are common to the main devices (desktop, tablet, phone) we use everyday to access the internet.  
+A fully responsive website is a dynamic website that will adjust depending on the browsing windows width.  This website is completely fluid as your browsing window width is altered.  
+2.	Describe what it means to be mobile first vs desktop first.
+Mobile first means you target audience is probably accessing your website mostly with a mobile device (or you hope they will in the near future) which means your first styling code will be for a mobile device & thus more restrictive in nature due to the size of the screen.  You will then use @media tag to expand & make alterations for your larger devices. 
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+Desktop first means your first styling code is much more broad because the size of the screen & you will continually make more restrictions to the viewing window as it grows smaller. 
+3.	What does font-size: 62.5% in the html tag do for us when using rem units?
+It would take make all elements 62.5% of the size of the root element.  
+4.	How would you describe preprocessing to someone new to CSS?
+A scripting lang that extends CSS & gets compiled into CSS so your computer can read & display the code you’ve written.  
+The logic & readability of styling code is much better with preproccessors compared to CSS.  Nesting variables & the use of some logical javascript tools are a couple of examples of why preprocessors are easier to read.  
 
-4. How would you describe preprocessing to someone new to CSS?
+5.	What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+My favorite concept in preprocessing are the various less files that you can import into you one main less index file.  To me, this would make the task of editing someone else’s work a little easier & less likely to get overwhelmed.  
+Still struggling a little bit with the syntax of the parametic mixins.  
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
